@@ -22,9 +22,9 @@ function App() {
           onMaxChanged={setMax}></Intervalo>        
       </div>
       <div className='Linha'>
-        <Media min={min} max={max}></Media>
-        <Soma min={min} max={max}></Soma>
-        <Sorteio min={min} max={max}></Sorteio>
+        <Media></Media>
+        <Soma></Soma>
+        <Sorteio></Sorteio>
       </div>
     </div>
   );

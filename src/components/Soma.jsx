@@ -22,7 +22,6 @@ function Soma(props) {
     )
 }
 
-
 function mapStateToProps(state) {
     return {
         min: state.numeros.min,
@@ -30,6 +29,5 @@ function mapStateToProps(state) {
     }
 
 }
-
 
 export default connect(mapStateToProps)(Soma)

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
 
-import Card from './components/Card'
 import Intervalo from './components/Intervalo'
 import Media from './components/Media'
 import Soma from './components/Soma'
